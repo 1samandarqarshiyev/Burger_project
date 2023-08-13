@@ -71,7 +71,7 @@ header .container .header1 .text .text3 :active {
   color: rgb(0, 0, 0);
 }
 header .container .header1 .text .text3 :hover {
-  font-size: 110%;
+  font-size: 120%;
   color: rgb(255, 255, 255);
   animation: myshadow 5s;
 }
