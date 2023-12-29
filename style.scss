@@ -1,6 +1,6 @@
 header{
     height: auto;
-    background: linear-gradient(180deg, #28a745 40%, rgba(237, 164, 24, 0) 100%);
+    background: linear-gradient(180deg, rgba(237, 164, 24, 1) 40%, rgba(237, 164, 24, 0) 100%);
     .container{
         .header1{
             // position: fixed;
@@ -100,14 +100,14 @@ header{
                         margin: 30px 0px 30px 0px;
                     }
                     button{
-                        background: linear-gradient(0deg, #28a745 2%, rgba(237, 164, 24, 0) 100%);
+                        background-color: rgba(229, 38, 38, 1);
                         border: 0px;
                         border-radius: 50px;
                         padding: 7px 40px 7px 40px;
                     }
                     :active{
-                        color: #28a745;
-                        background: linear-gradient(135deg, #28a745 2%, rgba(237, 164, 24, 0) 100%);
+                        color: rgba(237, 164, 24, 1);
+                        background: linear-gradient(135deg, rgba(237, 164, 24, 1) 2%, rgba(237, 164, 24, 0) 100%);
                     }
                 }
             }
@@ -148,7 +148,7 @@ main{
 
 footer{
     height: auto;
-    background: linear-gradient(360deg, #28a745 10%, rgba(237, 164, 24, 0) 100%);
+    background: linear-gradient(360deg, rgba(237, 164, 24, 1) 10%, rgba(237, 164, 24, 0) 100%);
     .container{
         .text_1{
             text-align: center;

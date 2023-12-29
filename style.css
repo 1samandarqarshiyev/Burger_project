@@ -1,6 +1,6 @@
 header {
   height: auto;
-  background: linear-gradient(180deg, #28a745 40%, rgba(237, 164, 24, 0) 100%);
+  background: linear-gradient(180deg, rgb(237, 164, 24) 40%, rgba(237, 164, 24, 0) 100%);
 }
 header .container .header1 .logo1 {
   margin-top: 20px;
@@ -103,14 +103,14 @@ header .container .header2 .text-button .block p {
   margin: 30px 0px 30px 0px;
 }
 header .container .header2 .text-button .block button {
-  background: linear-gradient(0deg, #28a745 2%, rgba(237, 164, 24, 0) 100%);
+  background-color: rgb(229, 38, 38);
   border: 0px;
   border-radius: 50px;
   padding: 7px 40px 7px 40px;
 }
 header .container .header2 .text-button .block :active {
-  color: #28a745;
-  background: linear-gradient(135deg, #28a745 2%, rgba(237, 164, 24, 0) 100%);
+  color: rgb(237, 164, 24);
+  background: linear-gradient(135deg, rgb(237, 164, 24) 2%, rgba(237, 164, 24, 0) 100%);
 }
 header .container .header2 .burger_header {
   margin-bottom: 15px;
@@ -135,7 +135,7 @@ main .container .slider .block h4 {
 
 footer {
   height: auto;
-  background: linear-gradient(360deg, #28a745 10%, rgba(237, 164, 24, 0) 100%);
+  background: linear-gradient(360deg, rgb(237, 164, 24) 10%, rgba(237, 164, 24, 0) 100%);
 }
 footer .container .text_1 {
   text-align: center;
